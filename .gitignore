@@ -1,3 +1,10 @@
 node_modules/
 build/
 _ignore/
+
+
+# For gh_pages:
+
+Gruntfile.js
+package.json
+*.less
