@@ -28,6 +28,12 @@ If you're interested, check out the ["Making of" article](http://making.shakr.co
     </head>
     ```
 
+    Or alternatively, use a CDN link instead if you don't want to host the file. 
+    ```html
+    <link rel="stylesheet" type="text/css" href="//cdn.rawgit.com/ShakrMedia/tuesday/master/build/tuesday.min.css" />
+    ```
+
+
 3. Add the class `.animated` and the class name of the animation to the element you want to animate.
     ```html
     <h1 id="header-text" class="animated tdDropInLeft">It's Tuesday.</h1>
@@ -91,21 +97,34 @@ More animations are to be added. Check out the [demo page](http://shakrmedia.git
 - tdFadeOutUp
 - tdFadeOutRight
 
-#### Zoom
-- tdZoomIn
-- tdZoomInBounce
-- tdZoomOut
-- tdZoomOutBounce
+#### Expand
+- tdExpandIn
+- tdExpandInBounce
+- tdExpandOut
+- tdExpandOutBounce
+
+#### Stamp
+- tdStampIn
+- tdStampInSwing
+
+#### Shrink
+- tdShrinkIn
+- tdShrinkInBounce
+- tdShrinkOut
+- tdShrinkOutBounce
 
 #### Swing
 - tdSwingIn
 - tdSwingOut
 
 #### DropIn
-- tdFadeInDown
-- tdFadeInLeft
+- tdDropInLeft
+- tdDropInRight
+
+#### Plop
+- tdPlopIn
+- tdPlopInDown
 - tdFadeInUp
-- tdFadeInRight
 
 #### HingeFlip
 - tdHingeFlipIn
